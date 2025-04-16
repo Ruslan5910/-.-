@@ -14,7 +14,7 @@ using boost::property_tree::read_json;
 using boost::property_tree::write_json;
 
 const int PORT = 12345;
-const std::string DB_CONNECTION_STRING = "dbname=mydb user=myuser password=mypassword host=localhost";
+const std::string DB_CONNECTION_STRING = "dbname user password host";
 
 class Session : public std::enable_shared_from_this<Session> {
 public:
